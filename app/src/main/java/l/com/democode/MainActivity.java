@@ -77,12 +77,12 @@ public class MainActivity extends AppCompatActivity {
         imageView = (ImageView) findViewById(R.id.imageView);
         btn_attach = (Button) findViewById(R.id.button);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                openImageChooser();
-//            }
-//        });
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openImageChooser();
+            }
+        });
 
         btn_attach.setOnClickListener(new View.OnClickListener() {
             @Override
